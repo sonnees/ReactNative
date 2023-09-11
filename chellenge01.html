@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="view">view here</h1>
+
+    <script>
+        const Mark = {
+            mass: 78,
+            height: 1.69,
+            calculatedBMI: function() {
+                return this.mass / Math.pow(this.height, 2)
+            }
+        }
+
+        const John = {
+            mass: 92,
+            height: 1.95
+        }
+
+        var str = `Mark_BMI = ${Mark.calculatedBMI()} <br> John_BMI = ${Mark.calculatedBMI.call(John)}`
+        console.log(str)
+        this.document.getElementById("view").innerHTML = str
+    </script>
+</body>
+
+</html>
