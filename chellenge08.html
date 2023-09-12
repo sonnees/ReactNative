@@ -11,17 +11,23 @@
 <body>
     <h1 id="Data0">view Data 1 here</h1>
     <h1 id="Data1">view Data 2 here</h1>
+    <h1 id="Data2">view Data 2 here</h1>
 
     <script>
         function calcTip(bill){
             return bill>=50 && bill <=300? bill*0.15 : bill * 0.2;
         }
+        function calcTotal(bill,tip) {
+            return bill+arrTip[tip];
+        }
 
-        const arrBill =[125,555,44];
+        const arrBill = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
         const arrTip = arrBill.map(calcTip);
+        const arrTotal = arrBill.map(calcTotal);
 
-        this.document.getElementById("Data0").innerHTML = "bill: "+arrBill;
-        this.document.getElementById("Data1").innerHTML = "tip: " + arrTip;  
+        this.document.getElementById("Data0").innerHTML = "bills:"+arrBill;
+        this.document.getElementById("Data1").innerHTML = "tips:" + arrTip; 
+         this.document.getElementById("Data2").innerHTML = "totals:" + arrTotal;   
 
        
         

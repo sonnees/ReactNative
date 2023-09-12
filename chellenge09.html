@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="Data0">view Data 1 here</h1>
+    <h1 id="Data1">view Data 2 here</h1>
+
+    <script>
+
+        function funcMap(temperature,index){
+            return `...${temperature}oC in ${index+1} days `;
+        }
+        function funcReduce(total,index){
+            return total+index;
+        }
+
+        const datas ={
+            data1: [17, 21, 23],
+            data2: [12, 5, -5, 0, 4]
+        }
+
+        const datasAddStr ={
+            data1: datas.data1.map(funcMap),
+            data2: datas.data2.map(funcMap)
+        }
+
+        const datasKQ ={
+            data1: datasAddStr.data1.reduce(funcReduce,""),
+            data2: datasAddStr.data2.reduce(funcReduce, "")
+        }
+        
+        this.document.getElementById("Data0").innerHTML = "Data1:"+ datasKQ.data1;
+        this.document.getElementById("Data1").innerHTML = "Data2:" + datasKQ.data2; 
+              
+        
+    </script>
+</body>
+
+</html>
