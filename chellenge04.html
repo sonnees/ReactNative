@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="Data0">view Data 1 here</h1>
+    <h1 id="Data1">view Data 2 here</h1>
+    <h1 id="Data2">view Data 3 here</h1>
+
+    <script>
+        function funcTip(bill){
+            return bill>=50 && bill <=300? bill*0.15 : bill * 0.2;
+        }
+
+        const arr =[275,40,430];
+
+        for (let x in arr){
+            const bill = arr[x];
+            let tip = funcTip(bill);
+            let total = bill + tip;
+            str = `The bill was ${bill}, the tip was ${tip}, and the total value ${total}`;
+            this.document.getElementById("Data"+x).innerHTML = str;  
+        }
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="view">view here</h1>
+
+    <script>
+        const Mark = {
+            fullname:"Mark Miller",
+            mass: 78,
+            height: 1.69,
+            BMI: function calcBMI() {
+                return Math.round(this.mass / Math.pow(this.height, 2))
+            }
+        }
+
+        const John = {
+            fullname: "John Smith",
+            mass: 92,
+            height: 1.95,
+            BMI: function calcBMI() {
+                return Math.round(this.mass / Math.pow(this.height, 2))
+            }
+        }
+        var str = "";
+        if(John.BMI() > Mark.BMI()){
+            str =`"John's BMI (${John.BMI()}) is higher than Mark's (${Mark.BMI()})!"`;
+        } else{
+            str = `"Mark's BMI (${Mark.BMI()}) is higher than John's (${John.BMI()})!"`;
+        }
+       
+        this.document.getElementById("view").innerHTML = str
+    </script>
+</body>
+
+</html>

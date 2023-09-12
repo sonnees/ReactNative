@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="Data1">view Data 1 here</h1>
+    <h1 id="DataBonus1">view Data Bonus 1 here</h1>
+    <h1 id="DataBonus2">view Data Bonus 2 here</h1>
+
+    <script>
+        function funcAverage(total, num){
+            return total+num;
+        }
+
+        {
+            const Dolphins = [96, 108, 89];
+            const Koalas = [88, 91, 110];
+
+            const DolphinsAverage = Dolphins.reduce(funcAverage, 0) / 3;
+            const KoalasAverage = Koalas.reduce(funcAverage, 0) / 3;
+
+            let str = "";
+            if (DolphinsAverage > KoalasAverage) {
+                str = "Dolphins win " + DolphinsAverage;
+            } else if (DolphinsAverage < KoalasAverage) {
+                str = "Koalas win " + KoalasAverage;
+            } else str = "draw";
+            this.document.getElementById("Data1").innerHTML = str;                   
+        }
+
+        {
+            const Dolphins = [97, 112, 101];
+            const Koalas = [109, 95, 123];
+
+            const DolphinsAverage = Dolphins.reduce(funcAverage, 0) / 3;
+            const KoalasAverage = Koalas.reduce(funcAverage, 0) / 3;
+
+            let str = "";
+            if (DolphinsAverage > KoalasAverage && DolphinsAverage>=100) {
+                str = "Dolphins win "+ DolphinsAverage;
+            } else if (DolphinsAverage < KoalasAverage && DolphinsAverage >= 100) {
+                str = "Koalas win "+ KoalasAverage ;
+            } else str = "---";
+            this.document.getElementById("DataBonus1").innerHTML = str;                   
+        }
+
+        {
+            const Dolphins = [97, 112, 101];
+            const Koalas = [109, 95, 123];
+
+            const DolphinsAverage = Dolphins.reduce(funcAverage, 0) / 3;
+            const KoalasAverage = Koalas.reduce(funcAverage, 0) / 3;
+
+            let str = "";
+            if(DolphinsAverage != KoalasAverage){
+                if (DolphinsAverage > KoalasAverage && DolphinsAverage >= 100) {
+                    str = "Dolphins win " + DolphinsAverage;
+                } else if (DolphinsAverage < KoalasAverage && DolphinsAverage >= 100) {
+                    str = "Koalas win " + KoalasAverage;
+                } else str = "no team wins";
+            } else{
+                if(DolphinsAverage >= 100){
+                    str = "2 team wins ";
+                } else str = "no team wins ";
+            }
+            this.document.getElementById("DataBonus2").innerHTML = str;                   
+        }
+        
+
+
+        
+    </script>
+</body>
+
+</html>
