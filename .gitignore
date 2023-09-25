@@ -1,0 +1,31 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+Zalo/node_modules/
+
+# Expo
+Zalo/.expo/
+Zalo/dist/
+Zalo/web-build/
+
+# Native
+Zalo/*.orig.*
+Zalo/*.jks
+Zalo/*.p8
+Zalo/*.p12
+Zalo/*.key
+Zalo/*.mobileprovision
+
+# Metro
+Zalo/.metro-health-check*
+
+# debug
+Zalo/npm-debug.*
+Zalo/yarn-debug.*
+Zalo/yarn-error.*
+
+# local env files
+Zalo/.env*.local
+
+# typescript
+Zalo*.tsbuildinfo
