@@ -1,31 +1,31 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # dependencies
-Zalo/node_modules/
+Buoi03/node_modules/
 
 # Expo
-Zalo/.expo/
-Zalo/dist/
-Zalo/web-build/
+Buoi03/.expo/
+Buoi03/dist/
+Buoi03/web-build/
 
 # Native
-Zalo/*.orig.*
-Zalo/*.jks
-Zalo/*.p8
-Zalo/*.p12
-Zalo/*.key
-Zalo/*.mobileprovision
+Buoi03/*.orig.*
+Buoi03/*.jks
+Buoi03/*.p8
+Buoi03/*.p12
+Buoi03/*.key
+Buoi03/*.mobileprovision
 
 # Metro
-Zalo/.metro-health-check*
+Buoi03/.metro-health-check*
 
 # debug
-Zalo/npm-debug.*
-Zalo/yarn-debug.*
-Zalo/yarn-error.*
+Buoi03/npm-debug.*
+Buoi03/yarn-debug.*
+Buoi03/yarn-error.*
 
 # local env files
-Zalo/.env*.local
+Buoi03/.env*.local
 
 # typescript
-Zalo*.tsbuildinfo
+Buoi03*.tsbuildinfo
