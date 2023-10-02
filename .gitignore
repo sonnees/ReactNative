@@ -2,11 +2,15 @@
 
 # dependencies
 Buoi03/node_modules/
+Lab04/node_modules/
 
 # Expo
 Buoi03/.expo/
 Buoi03/dist/
 Buoi03/web-build/
+Lab04/.expo/
+Lab04/dist/
+Lab04/web-build/
 
 # Native
 Buoi03/*.orig.*
@@ -14,18 +18,30 @@ Buoi03/*.jks
 Buoi03/*.p8
 Buoi03/*.p12
 Buoi03/*.key
-Buoi03/*.mobileprovision
+Lab04/*.mobileprovision
+Lab04/*.orig.*
+Lab04/*.jks
+Lab04/*.p8
+Lab04/*.p12
+Lab04/*.key
+Lab04/*.mobileprovision
 
 # Metro
 Buoi03/.metro-health-check*
+Lab04/.metro-health-check*
 
 # debug
 Buoi03/npm-debug.*
 Buoi03/yarn-debug.*
 Buoi03/yarn-error.*
+Lab04/npm-debug.*
+Lab04/yarn-debug.*
+Lab04/yarn-error.*
 
 # local env files
 Buoi03/.env*.local
+Lab04/.env*.local
 
 # typescript
 Buoi03*.tsbuildinfo
+Lab04*.tsbuildinfo
