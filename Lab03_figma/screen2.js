@@ -14,7 +14,7 @@ export default function Screen2() {
     <View style={styles.container}>
       <View style={{flex:0.1}}></View>
       <View style={{flex:2, flexDirection:'row'}}>
-        <Image style={{ flex: 1.5 }} source={{ uri: img }}></Image>
+        <Image style={{ flex: 1.5, height: '100%', width: 'auto', resizeMode: 'center', }} source={{ uri: img }}></Image>
         <View style={{ flex: 0.1 }}></View>
         <Text style={{ flex: 3, fontWeight: 'bold', fontSize: 17, alignItems: 'center' }}>Điện Thoại Vsmart Joy 3  Hàng chính hãng</Text>
       </View>

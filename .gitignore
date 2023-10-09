@@ -1,36 +1,36 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # dependencies
-Buoi03/node_modules/
-Lab04/node_modules/
+Lab01_figma/node_modules/
+Lab02_figma/node_modules/
 Lab03_figma/node_modules/
 
 # Expo
-Buoi03/.expo/
-Buoi03/dist/
-Buoi03/web-build/
+Lab01_figma/.expo/
+Lab01_figma/dist/
+Lab01_figma/web-build/
 
-Lab04/.expo/
-Lab04/dist/
-Lab04/web-build/
+Lab02_figma/.expo/
+Lab02_figma/dist/
+Lab02_figma/web-build/
 
 Lab03_figma/.expo/
 Lab03_figma/dist/
 Lab03_figma/web-build/
 
 # Native
-Buoi03/*.orig.*
-Buoi03/*.jks
-Buoi03/*.p8
-Buoi03/*.p12
-Buoi03/*.key
-Lab04/*.mobileprovision
-Lab04/*.orig.*
-Lab04/*.jks
-Lab04/*.p8
-Lab04/*.p12
-Lab04/*.key
-Lab04/*.mobileprovision
+Lab01_figma/*.orig.*
+Lab01_figma/*.jks
+Lab01_figma/*.p8
+Lab01_figma/*.p12
+Lab01_figma/*.key
+Lab02_figma/*.mobileprovision
+Lab02_figma/*.orig.*
+Lab02_figma/*.jks
+Lab02_figma/*.p8
+Lab02_figma/*.p12
+Lab02_figma/*.key
+Lab02_figma/*.mobileprovision
 
 Lab03_figma/*.mobileprovision
 Lab03_figma/*.orig.*
@@ -41,28 +41,28 @@ Lab03_figma/*.key
 Lab03_figma/*.mobileprovision
 
 # Metro
-Buoi03/.metro-health-check*
-Lab04/.metro-health-check*
+Lab01_figma/.metro-health-check*
+Lab02_figma/.metro-health-check*
 Lab03_figma/.metro-health-check*
 
 # debug
-Buoi03/npm-debug.*
-Buoi03/yarn-debug.*
-Buoi03/yarn-error.*
-Lab04/npm-debug.*
-Lab04/yarn-debug.*
-Lab04/yarn-error.*
+Lab01_figma/npm-debug.*
+Lab01_figma/yarn-debug.*
+Lab01_figma/yarn-error.*
+Lab02_figma/npm-debug.*
+Lab02_figma/yarn-debug.*
+Lab02_figma/yarn-error.*
 
 Lab03_figma/npm-debug.*
 Lab03_figma/yarn-debug.*
 Lab03_figma/yarn-error.*
 
 # local env files
-Buoi03/.env*.local
-Lab04/.env*.local
+Lab01_figma/.env*.local
+Lab02_figma/.env*.local
 Lab03_figma/.env*.local
 
 # typescript
-Buoi03*.tsbuildinfo
-Lab04*.tsbuildinfo
+Lab01_figma*.tsbuildinfo
+Lab02_figma*.tsbuildinfo
 Lab03_figma*.tsbuildinfo

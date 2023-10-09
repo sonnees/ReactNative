@@ -13,12 +13,15 @@ export default function Screen1() {
   return (
     <View style={styles.container}>
       <View style={{ flex: 0.3 }}></View>
-      <Image style={{ flex: 9 }} source={{ uri: img }}></Image>
+      <View style={{ flex: 9 }}>
+        <Image style={{ height: '100%', width: 'auto', resizeMode: 'center', }} source={{ uri: img }}></Image>
+      </View>
+      
       <View style={{flex:0.4}}></View>
       <Text style={{flex:1,fontWeight:'bold', fontSize:15, alignItems:'center'}}>Điện Thoại Vsmart Joy 3 - Hàng chính hãng</Text>
-      <View style={{flex:1, flexDirection:'row'}}>
-        <Image style={{flex:1}} source={{uri:'https://www.pngmart.com/files/23/Stars-PNG.png'}}></Image>
-        <Text style={{flex:1, textAlign:'center', justifyContent:'center', fontSize:16, alignSelf:'center'}}> (Xem 823 danh gia)</Text>
+      <View style={{ flex: 1, flexDirection: 'row'}}>
+        <Image style={{ flex: 1, height: '100%', width: 'auto', objectFit:'contain', left:0}} source={{uri:'https://www.pngmart.com/files/23/Stars-PNG.png'}}></Image>
+        <Text style={{flex:1, justifyContent:'center', fontSize:16, alignSelf:'center'}}>(Xem 823 danh gia)</Text>
       </View>
       
       <View style={{flex:1, flexDirection:'row', alignItems:'flex-end'}}>
