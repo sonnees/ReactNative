@@ -1,3 +1,8 @@
+# Achievement
+[Lab01_figma - video on youtube](https://youtu.be/4ZMBjNK7zgI) <br>
+[Lab02_figma - video on youtube](https://youtu.be/yjXS0xjpbE0) <br>
+[Lab03_figma - video on youtube](https://youtu.be/lWPfRgixZ6U) <br>
+
 # ReactNative
 ## Init
 ```bash
@@ -27,7 +32,3 @@ npm install --save @fortawesome/fontawesome-svg-core
 npm install --save @fortawesome/react-fontawesome
 npm install --save @fortawesome/free-solid-svg-icons
  ```
-# Achievement
-[Lab01_figma - video on youtube](https://youtu.be/4ZMBjNK7zgI) <br>
-[Lab02_figma - video on youtube](https://youtu.be/yjXS0xjpbE0) <br>
-[Lab03_figma - video on youtube](https://youtu.be/lWPfRgixZ6U) <br>
