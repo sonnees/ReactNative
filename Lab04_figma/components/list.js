@@ -1,6 +1,6 @@
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import { SafeAreaView, FlatList, Text, View, TouchableOpacity, Image} from 'react-native';
-import { MyContext } from '../App';
+import { SafeAreaView, FlatList, Text, View, TouchableOpacity, Image, Button} from 'react-native';
 export function BodyList() {
   const DATA =[
     {
@@ -76,7 +76,7 @@ export function BodyList() {
     </View>
   )
 
-  let { count, setCount } = React.useContext(MyContext);
+  let navigation = useNavigation();
   return (
     <SafeAreaView>
       <FlatList
@@ -84,6 +84,10 @@ export function BodyList() {
         renderItem={({ item }) =><Item i={item} />}
         keyExtractor={item => item.id}
       />
+      <Button 
+      title='next'
+        onPress={() => navigation.navigate('screen2')}
+      ></Button>
     </SafeAreaView>
   );
 }

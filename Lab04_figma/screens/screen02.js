@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Text, View, FlatList, Image} from 'react-native';
+import { Text, View, FlatList, Image, Button } from 'react-native';
 
 const DATA =[
   {
@@ -68,7 +68,7 @@ let Item = ({i})=>(
   </View>
 )
 
-export default function Screen1() {
+export default function Screen2({ navigation }) {
    return (
       <View>
        <FlatList 
@@ -77,6 +77,10 @@ export default function Screen1() {
         numColumns={2}
         
        />
+       <Button
+         title='next'
+         onPress={() => navigation.goBack()}
+       ></Button>
       </View>
   );
 }
