@@ -2,6 +2,8 @@
 [Lab01_figma - video on youtube](https://youtu.be/4ZMBjNK7zgI) <br>
 [Lab02_figma - video on youtube](https://youtu.be/yjXS0xjpbE0) <br>
 [Lab03_figma - video on youtube](https://youtu.be/lWPfRgixZ6U) <br>
+[Lab04_figma - video on youtube](https://youtu.be/rNpJfsftymg) <br>
+[Lab05_figma - video on youtube](https://youtu.be/et1G9DFfPbs) <br>
 
 # ReactNative
 ## Init
