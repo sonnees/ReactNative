@@ -37,15 +37,7 @@ export default function App() {
            <Stack.Screen name='screen2' component={screen2} 
            options={{
              title: 'Mua hang',
-             headerRight: () => (
-               <TouchableOpacity style={{ backgroundColor: 'red' }}
-                 onPress={() => {
-                   setCount((c) => c + 1);
-                   console.log(count)
-                 }}
-               ><Text>Count</Text></TouchableOpacity>
-             )
-           }} 
+            } }
            />
          </Stack.Navigator>
        </NavigationContainer>
