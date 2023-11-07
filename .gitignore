@@ -6,7 +6,7 @@ Lab02_figma/node_modules/
 Lab03_figma/node_modules/
 Lab04_figma/node_modules/
 Lab05_figma/node_modules/
-
+Lab05_figma_tt/node_modules/
 
 # Expo
 Lab01_figma/.expo/
@@ -28,6 +28,10 @@ Lab04_figma/web-build/
 Lab05_figma/.expo/
 Lab05_figma/dist/
 Lab05_figma/web-build/
+
+Lab05_figma_tt/.expo/
+Lab05_figma_tt/dist/
+Lab05_figma_tt/web-build/
 
 # Native
 Lab01_figma/*.orig.*
@@ -65,6 +69,13 @@ Lab05_figma/*.p12
 Lab05_figma/*.key
 Lab05_figma/*.mobileprovision
 
+Lab05_figma_tt/*.orig.*
+Lab05_figma_tt/*.jks
+Lab05_figma_tt/*.p8
+Lab05_figma_tt/*.p12
+Lab05_figma_tt/*.key
+Lab05_figma_tt/*.mobileprovision
+
 
 # Metro
 Lab01_figma/.metro-health-check*
@@ -72,6 +83,7 @@ Lab02_figma/.metro-health-check*
 Lab03_figma/.metro-health-check*
 Lab04_figma/.metro-health-check*
 Lab05_figma/.metro-health-check*
+Lab05_figma_tt/.metro-health-check*
 
 # debug
 Lab01_figma/npm-debug.*
@@ -94,12 +106,17 @@ Lab05_figma/npm-debug.*
 Lab05_figma/yarn-debug.*
 Lab05_figma/yarn-error.*
 
+Lab05_figma_tt/npm-debug.*
+Lab05_figma_tt/yarn-debug.*
+Lab05_figma_tt/yarn-error.*
+
 # local env files
 Lab01_figma/.env*.local
 Lab02_figma/.env*.local
 Lab03_figma/.env*.local
 Lab04_figma/.env*.local
 Lab05_figma/.env*.local
+Lab05_figma_tt/.env*.local
 
 # typescript
 Lab01_figma*.tsbuildinfo
@@ -107,3 +124,4 @@ Lab02_figma*.tsbuildinfo
 Lab03_figma*.tsbuildinfo
 Lab04_figma*.tsbuildinfo
 Lab05_figma*.tsbuildinfo
+Lab05_figma_tt*.tsbuildinfo
