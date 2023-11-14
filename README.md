@@ -29,6 +29,14 @@ npm i @react-navigation/native
 ```bash
 npm i @react-navigation/stack
  ```
+react-redux
+```bash
+npm i react-redux
+ ```
+redux
+```bash
+npm i redux
+ ```
 [Font Awesome](https://fontawesome.com/v5/search?q=user%20&o=r&m=free)
 ```bash
 npm install --save @fortawesome/fontawesome-svg-core
