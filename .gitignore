@@ -7,6 +7,8 @@ Lab03_figma/node_modules/
 Lab04_figma/node_modules/
 Lab05_figma/node_modules/
 Lab05_figma_tt/node_modules/
+Redux/node_modules/
+Redux-Api/node_modules/
 
 # Expo
 Lab01_figma/.expo/
@@ -32,6 +34,14 @@ Lab05_figma/web-build/
 Lab05_figma_tt/.expo/
 Lab05_figma_tt/dist/
 Lab05_figma_tt/web-build/
+
+Redux/.expo/
+Redux/dist/
+Redux/web-build/
+
+Redux-Api/.expo/
+Redux-Api/dist/
+Redux-Api/web-build/
 
 # Native
 Lab01_figma/*.orig.*
@@ -76,6 +86,20 @@ Lab05_figma_tt/*.p12
 Lab05_figma_tt/*.key
 Lab05_figma_tt/*.mobileprovision
 
+Redux/*.mobileprovision
+Redux/*.orig.*
+Redux/*.jks
+Redux/*.p8
+Redux/*.p12
+Redux/*.key
+
+Redux-Api/*.mobileprovision
+Redux-Api/*.orig.*
+Redux-Api/*.jks
+Redux-Api/*.p8
+Redux-Api/*.p12
+Redux-Api/*.key
+
 
 # Metro
 Lab01_figma/.metro-health-check*
@@ -84,6 +108,8 @@ Lab03_figma/.metro-health-check*
 Lab04_figma/.metro-health-check*
 Lab05_figma/.metro-health-check*
 Lab05_figma_tt/.metro-health-check*
+Redux/.metro-health-check*
+Redux-Api/.metro-health-check*
 
 # debug
 Lab01_figma/npm-debug.*
